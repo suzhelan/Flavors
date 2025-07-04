@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "top.sacz.flavors.oppo",
+  "variantName": "envProdOppoRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "Flavors_v1.0_envProdOppo_release_2025-07-04_09.55.apk"
+    }
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/Flavors_v1.0_envProdOppo_release_2025-07-04_09.55.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/Flavors_v1.0_envProdOppo_release_2025-07-04_09.55.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 26
+}
